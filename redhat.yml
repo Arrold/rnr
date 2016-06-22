@@ -1,0 +1,4 @@
+- hosts: RedHat
+  gather_facts: true
+  roles:
+    - redhat

@@ -1,0 +1,6 @@
+---
+- name: Build RedHat Server
+  hosts: localhost
+  connection: local
+  roles:
+     - build_clc_server
