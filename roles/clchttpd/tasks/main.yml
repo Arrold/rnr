@@ -1,0 +1,3 @@
+---
+- name: httpd role
+  yum: name=httpd state=latest
